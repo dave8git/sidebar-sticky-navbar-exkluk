@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar-top</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">O mnie</a>
+        <a href="#">Projekty</a>
+        <a href="#">Kontakt</a>
+        <p>tel. 696 055 969</p>
+        <p>email: flaku4@gmail.com</p>
+    </div>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <p>Lorem ipsum.</p>
+            </h2>
+            <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                mollitia!
+            </p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+            <ul>
+                <li class="skill left">
+                    <div class="skill-image">
+                        <img src="1.jpg" alt="city skyline in clouds">
+                    </div>
+                    <div class="skill-description">
+                        <h3 class="skill-title">Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam placeat sint ut ex
+                            delectus temporibus dolor, consectetur neque at eum omnis blanditiis consequuntur
+                            aliquam.
+                        </p>
+                    </div>
+                </li>
+                <li class="skill right">
+                    <div class="skill-image">
+                        <img src="2.jpg" alt="city skyline chicago">
+                    </div>
+                    <div class="skill-description">
+                        <h3 class="skill-title">Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam placeat sint ut ex
+                            delectus temporibus dolor, consectetur neque at eum omnis blanditiis consequuntur
+                            aliquam.
+                        </p>
+                    </div>
+                </li>
+                <li class="skill left">
+                    <div class="skill-image">
+                        <img src="3.jpg" alt="city skyline in clouds">
+                    </div>
+                    <div class="skill-description">
+                        <h3 class="skill-title">Lorem ipsum dolor</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quam placeat sint ut ex
+                            delectus temporibus dolor, consectetur neque at eum omnis blanditiis consequuntur
+                            aliquam.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="gallery">
+        <h2 class="section-title">Lorem ipsum dolor sit amet.</h2>
+        <div class="gallery-area">
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+            <div class="single-img">
+                <div class="overlay">
+                    <button>Kliknij</button>
+                </div>
+                <img src="https://images.pexels.com/photos/1340428/pexels-photo-1340428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="contact-form">
+                <div class="left-form-size">
+                    <div class="contact-line">
+                        <i class="fa fa-map-marker"></i>
+                        <span class="form-info">192 City Boston USA</span>
+                    </div>
+                    <div class="contact-line">
+                        <i class="fa fa-phone"></i>
+                        <span class="form-info">Phone no. +92 877234322</span>
+                    </div>
+                    <div class="contact-line">
+                        <i class="fa fa-envelope"></i>
+                        <span class="form-info">johnnybravo@gmail.com</span>
+                    </div>
+                </div>
+                <div class="dj">
+                    <form action="">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                        <input type="text" placeholder="Email" required>
+                        <input type="text" placeholder="Subject of this message" required>
+                        <textarea name="message" placeholder="Message" id="" rows="5" id="" required></textarea>
+                        <button class="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <p>&copy; Dave Pol. All rights reserverd.</p>
+    </footer>
+
+    </div>
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+</body>
+
+</html>
